@@ -1,0 +1,37 @@
+.custom_text_color{
+    color:#092696;
+}
+.container1{
+    margin-top: 1.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+}
+
+.custom_fixme{
+    position: fixed;
+    top: 5%;
+}
+.custom_fixme1{
+    position: fixed;
+    top: 2.5%;
+    left: 80%;
+}
+.custom_fixme2{
+    position: fixed;
+    top: 2.5%;
+}
+.custom_fixed-top {
+    position: fixed;
+    top: 3rem;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+.ms-custom{
+    margin-left: 30% !important;
+  }
+a{
+    text-decoration: none;
+    color: #092696;
+}
