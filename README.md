@@ -2,6 +2,9 @@
 
 ## Make Sure these files are in same folder a index.html
 
+### Images
+1. log+title.png
+
 ### CSS Files
 1. bootstrap.css
 2. style.css
