@@ -7,72 +7,80 @@
 
     <link href="node_modules/bootstrap/scss/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/sidenev.css">
+    <link rel="stylesheet" href="hamburgerstyle.css">
+    <link rel="stylesheet" href="/social_media_hangles.css">
+    <link rel="stylesheet" href="/custom_button_style.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
 <body>
 
+    <!--Social Media Handles start-->
+    <div style="position: fixed; left: 40px; bottom: 0px;" class="menu">
+        <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open"/>
+        <label class="menu-open-button" for="menu-open">
+          <span class="hamburger_ hamburger-1"></span>
+          <span class="hamburger_ hamburger-2"></span>
+          <span class="hamburger_ hamburger-3"></span>
+        </label>
+        <a href="#" class="menu-item"> <i class="fa fa-facebook"></i> </a>
+        <a href="#" class="menu-item"> <i class="fa fa-twitter"></i> </a>
+        <a href="#" class="menu-item"> <i class="fa fa-envelope"></i> </a>
+    </div>
+    <!--Social Media Handles end-->
+
     <div class="container custom_text_color mb-0">
-        <header class="nav navbar navbar-expand-lg navbar-primary fixed-top bg-white">
-            <a class="navbar-brand custom_text_color ms-5" href="#" >  
+
+
+        <header class="nav navbar navbar-expand-lg navbar-primary fixed-top bg-white"> 
+
+            <a style="position: fixed; left: 1rem; top: 1rem;" class="navbar-brand custom_text_color ms-5" href="#" >  
                 <img src ="/log+title.png" width="120" height="35" class="d-inline-block align-text-top"> 
-                Uttar Pradesh State Industrial Development Authority
             </a>
-            <span style="margin-left:30%; font-size: small;" id="clock"> </span>
+            <p style="margin-left: 12rem; text-align: center; padding-top: 0.5rem; font-style:oblique; font-size: large;" class="navbar-primary navbar-expand d-none d-md-none d-lg-block fw-bold mt-1">Uttar Pradesh State Industrial Development Authority</p>
+
+
+            <!--Clock starts here-->
+            <span style="margin-left:28%; font-size: small;" class="d-none d-md-none d-lg-block" id="clock"> </span>
+            <!--Clock ends here-->
+
+            <!--Webmail and office login part starts here-->
+            <div style="position: fixed; top: 0rem; right: 0rem;">
+                <button class="btn btn-dark">
+                    <i class="fa fa-envelope"></i>
+                    <span><a href="">Webmail</a></span>
+                  </button>
+                  <button class="btn btn-dark">
+                    <i class="fa fa-briefcase"></i>
+                    <span><a href="">Office Login</a></span>
+                  </button>
+            </div>
+            <!--Webmail and office login part ends here-->
+
         </header>
 
-        <div class="container border-success mt-5 fixed-top">
+        <div style="margin-top: 3.5rem;" class="container border-success fixed-top">
             
-            <nav class="nav navbar navbar-expand-sm bg-white ">
+            <nav class="nav navbar navbar-expand-sm bg-white">
 
+                <!--This Visible Division is visible only on mobile-->
                 <div class="d-block d-sm-none">
-                    <a class="btn btn-default d-sm-none" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar" aria-expanded="false" aria-controls="myNavbar">
-                        <div class="dropdown">
-                            <button class="btn btn-primary dropbtn">Menu</button>
-                        </div>
-                    </a>
-                    <div class="collapse navbar-collapse d-sm-none justify-content-start" id="myNavbar">
-                        <ul class="nav navbar-nav" data-hover="dropdown" id="myNavbar">
-                            <li class="nav-item">
-                                <div class="dropdown">
-                                    <button class="btn btn-default dropbtn"><a href="#">Home</a></button>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <div class="dropdown">
-                                    <button class="btn btn-default dropbtn"><a href="#">About UPSIDA</a></button>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <div class="dropdown">
-                                    <button class="btn btn-default dropbtn"><a href="#">Policies</a></button>
-                                </div>
-                            </li>   
-                            <li class="nav-item">
-                                <div class="dropdown">
-                                    <button class="btn btn-default dropbtn"><a href="#">Industrial Info</a></button>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <div class="dropdown">
-                                    <button class="btn btn-default dropbtn"><a href="#">GIS</a></button>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <div class="dropdown">
-                                    <button class="btn btn-default dropbtn"><a href="#">E-services</a></button>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <div class="dropdown">
-                                    <button class="btn btn-default dropbtn"><a href="#">Office Orders</a></button>
-                                </div>
-                            </li>
-
-
-                            <li class="nav-item">
-                                <div class="dropdown">
-                                    <button class="btn btn-default dropbtn">Resource Center</button>
-                                    <div class="dropdown-content">
+                    <div class="nav-container" tabindex="0">
+                        <div class="nav-toggle"></div>
+                        <ul class="nav-items">
+                            <li class="nav-item1"><a href="#">Home</a></li>
+                            <li class="nav-item1"><a href="#">About UPSIDA</a></li>
+                            <li class="nav-item1"><a href="#">Policies</a></li>
+                            <li class="nav-item1"><a href="#">Industrial Info</a></li>
+                            <li class="nav-item1"><a href="#">GIS</a></li>
+                            <li class="nav-item1"><a href="#">E-Services</a></li>
+                            <li class="nav-item1"><a href="#">Office Orders</a></li>
+                            <li>
+                                <div class="dropup">
+                                    <button class="dropbtn nav-item1">Resource Center</button>
+                                    <span class="icon"></span>
+                                    <div class="dropup-content">
                                       <a href="#">Link 1</a>
                                       <a href="#">Link 2</a>
                                       <a href="#">Link 3</a>
@@ -84,23 +92,30 @@
                                     </div>
                                   </div>
                             </li>
-
-                            <li class="dropdown">
-                                <a class="nav-link dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" href="#">Available Plot
-                                    <span class="caret"></span></a>
-                                    <ul class="dropdown-menu">
-                                      <li><a href="#">Page 1-1</a></li>
-                                      <li><a href="#">Page 1-2</a></li>
-                                      <li><a href="#">Page 1-3</a></li>
-                                    </ul>
+                            <li>
+                                <div class="dropup">
+                                    <button class="dropbtn nav-item1">Available Plot</button>
+                                    <div class="dropup-content">
+                                      <a href="#">Link 1</a>
+                                      <a href="#">Link 2</a>
+                                    </div>
+                                  </div>
                             </li>
-                            <li class="nav-item">
-                                <a href="/contact.html" class="nav-link">Contact Us</a>
+                            <li>
+                                <div class="dropup">
+                                    <button class="dropbtn nav-item1">Contact Us</button>
+                                    <div class="dropup-content">
+                                      <a href="#">Link 1</a>
+                                      <a href="#">Link 2</a>
+                                      <a href="#">Link 3</a>
+                                    </div>
+                                  </div>
                             </li>
                         </ul>
-                    </div>
+                      </div>
                 </div>
                 
+                <!--This Visible Division is visible only on Desktop-->
                 <div class="d-none d-sm-block justify-content-between">
                     <ul class="nav navbar-nav">
 
@@ -180,38 +195,64 @@
 
                     </ul>
                 </div>
-
             </nav>
         </div>
 
+
         
-        <!--Changes start here-->
-        <div class="container custom_text_color">
+        <!--This is where Variable part for each page starts-->
+        <div style="margin-top: 7.5rem;" class="container custom_text_color">
             <section>
                 <h1>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa reprehenderit accusamus nihil voluptatem accusantium quo? Illum nisi expedita voluptatem corrupti quod itaque, sint enim placeat molestias. Minima voluptatum autem dicta?</h1>
             </section>
             <section>
-               <h1>
+                <h1>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa reprehenderit accusamus nihil voluptatem accusantium quo? Illum nisi expedita voluptatem corrupti quod itaque, sint enim placeat molestias. Minima voluptatum autem dicta?</h1>
             </section>
             <section>
                 <h1>
-                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa reprehenderit accusamus nihil voluptatem accusantium quo? Illum nisi expedita voluptatem corrupti quod itaque, sint enim placeat molestias. Minima voluptatum autem dicta?</h1>
-             </section>
-             <section>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa reprehenderit accusamus nihil voluptatem accusantium quo? Illum nisi expedita voluptatem corrupti quod itaque, sint enim placeat molestias. Minima voluptatum autem dicta?</h1>
+                </section>
+                <section>
                 <h1>
-                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa reprehenderit accusamus nihil voluptatem accusantium quo? Illum nisi expedita voluptatem corrupti quod itaque, sint enim placeat molestias. Minima voluptatum autem dicta?</h1>
-             </section>
-             <section>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa reprehenderit accusamus nihil voluptatem accusantium quo? Illum nisi expedita voluptatem corrupti quod itaque, sint enim placeat molestias. Minima voluptatum autem dicta?</h1>
+                </section>
+                <section>
                 <h1>
-                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa reprehenderit accusamus nihil voluptatem accusantium quo? Illum nisi expedita voluptatem corrupti quod itaque, sint enim placeat molestias. Minima voluptatum autem dicta?</h1>
-             </section>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa reprehenderit accusamus nihil voluptatem accusantium quo? Illum nisi expedita voluptatem corrupti quod itaque, sint enim placeat molestias. Minima voluptatum autem dicta?</h1>
+                </section>
         </div>
 
-
+        <!--pagewise Variable part ends-->
     </div>
 
+
+
+    <!--filters REquired for displaying social Media handles start -->
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+        <filter id="shadowed-goo">
+            <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+            <feGaussianBlur in="goo" stdDeviation="3" result="shadow" />
+            <feColorMatrix in="shadow" mode="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 -0.2" result="shadow" />
+            <feOffset in="shadow" dx="1" dy="1" result="shadow" />
+            <feBlend in2="shadow" in="goo" result="goo" />
+            <feBlend in2="goo" in="SourceGraphic" result="mix" />
+        </filter>
+        <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+            <feBlend in2="goo" in="SourceGraphic" result="mix" />
+        </filter>
+        </defs>
+    </svg>
+    <!--filters REquired for displaying social Media handles End-->
+
+
+
+    <!--Scripts Required for each page start-->
     <script src="/bootstrap.bundle.min.js"></script>
     <script type="text/javascript">
         var clockElement = document.getElementById('clock');
@@ -230,5 +271,24 @@
         }
         setInterval(clock, 1000);
     </script>
+    <script>
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+
+        for (i = 0; i < dropdown.length; i++) {
+        dropdown[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var dropdownContent = this.nextElementSibling;
+            if (dropdownContent.style.display === "block") {
+            dropdownContent.style.display = "none";
+            } else {
+            dropdownContent.style.display = "block";
+            }
+        });
+        }
+    </script>
+    <script src="/ham.js"></script>
+    <!--Scripts Required for each page end-->
+
 </body>
 </html>

@@ -8,7 +8,7 @@ a{
 }
 
 
-  .hamburger {
+.hamburger {
     cursor: pointer;
     padding: 15px 10px 15px 0;
     display: block;
@@ -81,13 +81,13 @@ a{
   
 
 /* Change color of dropup links on hover */
-.dropup-content a:hover {background-color: #ddd;align-content: center;text-align: center;}
+.dropup-content a:hover {background-color: #ddd;text-align: center;}
 
 /* Show the dropup menu on hover */
-.dropup:hover .dropup-content {display: block;margin-left: 4rem;}
+.dropup:hover .dropup-content {display: block;margin-left: 4rem; margin-bottom: -2rem;}
 
 /* Change the background color of the dropup button when the dropup content is shown */
-.dropup:hover .dropbtn {background-color: #2ffc1b; color: #fff; align-content: center;}
+.dropup:hover .dropbtn {background-color: #2ffc1b; color: #fff;}
 
 
 
