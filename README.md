@@ -18,6 +18,9 @@
 4. social_media_hangles.css
 5. custom_button_style.css
 
+
+#### Copyright &copy; 2021 | All rights reserved.
+
 ### JavaScript Files
 1. bootstrap.bundle.min.js
 2. ham.js
