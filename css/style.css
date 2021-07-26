@@ -44,9 +44,10 @@ display: inline-block;
 .dropup-content {
 display: none;
 position: absolute;
+font-size: small;
 bottom: 50px;
 background-color: #f1f1f1;
-min-width: 160px;
+min-width: 220px;
 box-shadow: #092696;
 z-index: 1;
 }
@@ -55,8 +56,9 @@ z-index: 1;
 .dropdown-content {
 display: none;
 position: absolute;
+font-size: small;
 background-color: #EFEFEF;
-min-width: 160px;
+min-width: 220px;
 box-shadow: #092696;
 z-index: 1;
 }
@@ -78,12 +80,15 @@ display: block;
   display: block;
 }
 
-
 /* Change color of dropup links on hover */
 .dropup-content a:hover {background-color: #ddd; text-align: center;}
 
 /* Show the dropup menu on hover */
-.dropup:hover .dropup-content {display: block;margin-left: 4rem; margin-bottom: -2rem;}
+.dropup:hover .dropup-content {
+  display: block;
+  margin-left: 4rem; 
+  margin-bottom: -2rem;
+}
 
 
 /* Change the background color of the dropup button when the dropup content is shown */
@@ -98,7 +103,7 @@ display: block;
 .dropdown-content a:hover {background-color: #fff; align-content: center;text-align: center;}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block; }
+.dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
