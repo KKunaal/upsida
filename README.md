@@ -1,3 +1,5 @@
+# Checking if all changes are reflected from offline VS code
+
 # Dependencies
 
 ## Make Sure these files are in same folder a index.html
