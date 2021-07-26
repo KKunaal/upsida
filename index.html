@@ -18,16 +18,18 @@
 <body>
 
     <!--Social Media Handles start-->
-    <div style="position: fixed; left: 40px; bottom: 0px;" class="menu">
-        <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open"/>
-        <label class="menu-open-button" for="menu-open">
-          <span class="hamburger_ hamburger-1"></span>
-          <span class="hamburger_ hamburger-2"></span>
-          <span class="hamburger_ hamburger-3"></span>
-        </label>
-        <a href="#" class="menu-item"> <i class="fa fa-facebook"></i> </a>
-        <a href="#" class="menu-item"> <i class="fa fa-twitter"></i> </a>
-        <a href="#" class="menu-item"> <i class="fa fa-envelope"></i> </a>
+    <div class="menu ">
+        <div id="mydiv">
+            <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open"/>
+                <label class="menu-open-button" for="menu-open">
+                    <span class="hamburger_ hamburger-1"></span>
+                    <span class="hamburger_ hamburger-2"></span>
+                    <span class="hamburger_ hamburger-3"></span>
+                  </label>
+                <a href="#" class="menu-item"> <i class="fa fa-facebook"></i> </a>
+                <a href="#" class="menu-item"> <i class="fa fa-twitter"></i> </a>
+                <a href="#" class="menu-item"> <i class="fa fa-envelope"></i> </a>
+        </div>
     </div>
     <!--Social Media Handles end-->
 
@@ -213,7 +215,7 @@
                 </div>
             </section>
 
-            <section style="padding: 1rem;" class="container d-none d-md-none d-lg-block">
+            <section style="padding: 0.5rem; border: 2px solid; border-radius: 20px;" class="container d-none d-md-none d-lg-block">
                 <div class="card-group">
                     <div class="card">
                         <img src="/upsida/images/cmnew.jpg" class="card-img-top" alt="...">
@@ -324,6 +326,7 @@
         });
         }
     </script>
+    <script src="/upsida/js/draggable.js"></script>
     <script src="/upsida/js/ham.js"></script>
     <script src="/upsida/js/bootstrap.bundle.min.js"></script>
     <!--Scripts Required for each page end-->
