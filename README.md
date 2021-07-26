@@ -19,10 +19,14 @@
 3. hamburgerstyle.css
 4. social_media_hangles.css
 5. custom_button_style.css
+6. footer.css
+7. login_style.css
+8. showcase.css
 
 ### JavaScript Files
 1. bootstrap.bundle.min.js
 2. ham.js
+3. draggable.js
 
 # Authors:
 #### 1. [Kunal Ghanghav](#https://github.com/KKunaal)
