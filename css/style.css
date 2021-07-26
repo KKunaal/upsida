@@ -2,11 +2,16 @@
   color:#092696;
 }
 
+#mydiv {
+  position: absolute;
+  top:400px;
+  left: -450px;
+}
+
 a{
   text-decoration: none;
   color: #092696;
 }
-
 
 .hamburger {
   cursor: pointer;

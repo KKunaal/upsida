@@ -4464,7 +4464,8 @@ fieldset:disabled .btn {
 }
 
 .card-group > .card {
-  margin-bottom: 0.75rem;
+  border: none;
+  margin: 0.75rem;
 }
 
 @media (min-width: 576px) {
