@@ -1,4 +1,4 @@
-# Checking if all changes are reflected from offline VS code
+# Checking if all changes are reflected from offline VSCode
 
 # Dependencies
 
