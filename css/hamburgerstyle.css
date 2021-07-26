@@ -1,0 +1,90 @@
+.nav-container {
+  position: relative;
+  display: inline-block;
+  max-width: 50px;
+  max-height: 50px;
+  overflow: visible;
+  outline: none;
+}
+
+.nav-container.is-active .nav-toggle:before, .nav-container.is-active .nav-toggle:after {
+  box-shadow: none;
+}
+
+.nav-container.is-active .nav-toggle:before {
+  transform: rotate(-45deg);
+}
+
+.nav-container.is-active .nav-toggle:after {
+  transform: rotate(45deg);
+}
+
+.nav-container.is-active .nav-items {
+  transform: translate(0, 0);
+}
+
+.nav-container .nav-toggle {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  z-index: 2;
+}
+
+.nav-container .nav-toggle:hover {
+  cursor: pointer;
+}
+
+.nav-container .nav-toggle:before, .nav-container .nav-toggle:after {
+  content: "";
+  position: absolute;
+  top: 18px;
+  left: 0;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 4px;
+  background: #092696;
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.nav-container .nav-toggle:before {
+  box-shadow: 0 13.33333px 0 0 #092696
+}
+
+.nav-container .nav-toggle:after {
+  box-shadow: 0 -13.33333px 0 0 #092696;
+}
+
+.nav-container .nav-items {
+  position: absolute;
+  text-align: center;
+  top: 0;
+  left: 0;
+  min-width: 300px;
+  max-width: 100vw;
+  width: 50vw;
+  height: 100vh;
+  z-index: 1;
+  padding: 80px 20px 20px 10px;
+  transition: transform .3s ease;
+  transform: translate(calc(-100% - 50px), 0);
+  background: #EFEFEF;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px 0;
+  align-content: start;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+  overflow: scroll;
+}
+
+.nav-container .nav-items .nav-item1 {
+  background: #e2e2e2;
+  padding: 5px;
+  transition: background-color .3s ease;
+}
+
+.nav-container .nav-items .nav-item1:hover {
+  cursor: pointer;
+  background: #2ffc1b;
+  color: white;
+}
