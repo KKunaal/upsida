@@ -19,6 +19,9 @@
 3. hamburgerstyle.css
 4. social_media_hangles.css
 5. custom_button_style.css
+6. footer.css
+7. login_style.css
+8. showcase.css
 
 ### JavaScript Files
 1. bootstrap.bundle.min.js
