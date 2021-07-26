@@ -1,0 +1,15 @@
+#showcase{
+	background: linear-gradient(#092696,#2ffc1b);
+	background-position: center right;
+	min-height: 300px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+
+#showcase h1{
+	color: #fff;
+	font-size: 50px;
+	line-height: 1.6em;
+	padding-top: 30px;
+}

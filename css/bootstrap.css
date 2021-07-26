@@ -1181,6 +1181,7 @@ progress {
   }
 }
 
+
 @media (min-width: 768px) {
   .col-md-auto {
     flex: 0 0 auto;
@@ -3093,8 +3094,7 @@ fieldset:disabled .btn {
 
 .btn-dark {
   color: #fff;
-  background-color: #212529;
-  border-color: #212529;
+  background: linear-gradient(to right,#092696,#000);
 }
 
 

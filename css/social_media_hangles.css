@@ -14,7 +14,7 @@
   text-align: center;
   line-height: 80px;
   transform: translate3d(0, 0, 0);
-  transition: transform ease-out 200ms;
+  transition: transform ease-out 40ms;
 }
 
 .menu-open {
@@ -31,7 +31,7 @@
   left: 50%;
   margin-left: -12.5px;
   margin-top: -1.5px;
-  transition: transform 200ms;
+  transition: transform 100ms;
 }
 
 .hamburger-1 {
