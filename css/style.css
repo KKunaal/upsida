@@ -4,7 +4,8 @@
 
 #mydiv {
   position: absolute;
-  bottom: 3rem;
+  top:400px;
+  left: -450px;
 }
 
 a{
