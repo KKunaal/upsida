@@ -85,6 +85,9 @@
 
 .nav-container .nav-items .nav-item1:hover {
   cursor: pointer;
-  background: #2ffc1b;
+  background: linear-gradient(to right,#2ffc1b,#092696);
+  color: white;
+}
+.nav-container .nav-items .nav-item1:hover a {
   color: white;
 }

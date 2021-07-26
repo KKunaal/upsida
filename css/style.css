@@ -101,7 +101,12 @@ display: block;
 .dropdown:hover .dropdown-content {display: block; }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #2ffc1b; color: #fff; align-content: center; }
+.dropdown:hover .dropbtn {
+	background: linear-gradient(to right,#092696,#2ffc1b);
+	background-position: center right;
+  color: #fff;
+  align-content: center;
+ }
 
 /* Change the background color of the dropdown button links when the dropdown content is shown */
 .dropdown:hover .dropbtn a { color: #fff; align-content: center; }
