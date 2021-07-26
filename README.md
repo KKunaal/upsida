@@ -1,5 +1,3 @@
-# Checking offline VS Code
-
 # Dependencies
 
 ## Make Sure these files are in same folder a index.html
