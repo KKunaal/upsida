@@ -1,4 +1,4 @@
-# Checking offline VSCode
+# Checking offline VS Code
 
 # Dependencies
 
