@@ -22,8 +22,8 @@
 1. bootstrap.bundle.min.js
 2. ham.js
 
-# Project by:
-#### 1. Kunal Ghanghav: https://github.com/KKunaal
-#### 2. Anshita Srivastava: https://github.com/anshita22
+# Authors:
+#### 1. [Kunal Ghanghav] (https://github.com/KKunaal)
+#### 2. [Anshita Srivastava] (https://github.com/anshita22)
 
-#### Copyright &copy; 2021 | All rights reserved.
+#### Copyright &copy; 2021 | [Kunal Ghanghav] (https://github.com/KKunaal) [Anshita Srivastava] (https://github.com/anshita22) | All rights reserved.
