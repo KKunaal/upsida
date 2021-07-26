@@ -1,4 +1,4 @@
-# How to run this on your system?
+# How to run this project on your system?
 1. Get the link to this repo (Click on code(green button)-http-copy the link)
 2. Open VScode
 3. Open terminal (Note: Better if Set the path to the folder where you usually store projects through "cd" (Optional))
