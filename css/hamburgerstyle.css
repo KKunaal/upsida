@@ -62,12 +62,12 @@
   left: 0;
   min-width: 300px;
   max-width: 100vw;
-  width: 90vw;
+  width: 50vw;
   height: 80vh;
   z-index: 1;
   padding: 80px 20px 20px 10px;
   transition: transform .3s ease;
-  transform: translate(calc(-100% - 50px), 0);
+  transform: translate(calc(-200% - 50px), 0);
   background: #EFEFEF;
   display: grid;
   grid-template-columns: 1fr;
@@ -80,7 +80,7 @@
 .nav-container .nav-items .nav-item1 {
   background: #e2e2e2;
   padding: 5px;
-  transition: background-color .3s ease;
+  transition: #fff .3s ease;
 }
 
 .nav-container .nav-items .nav-item1:hover {
