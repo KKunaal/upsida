@@ -26,6 +26,7 @@
 ### JavaScript Files
 1. bootstrap.bundle.min.js
 2. ham.js
+3. draggable.js
 
 # Authors:
 #### 1. [Kunal Ghanghav](#https://github.com/KKunaal)
