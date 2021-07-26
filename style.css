@@ -92,8 +92,6 @@ display: block;
 /* Change the background color of the dropup button links when the dropup content is shown */
 .dropup:hover .dropbtn a {color: #fff;}
 
-
-
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #fff; align-content: center;text-align: center;}
 
