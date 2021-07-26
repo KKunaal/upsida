@@ -23,5 +23,5 @@
 2. ham.js
 
 # Project by:
-1. https://github.com/KKunaal
-2. https://github.com/anshita22
+#### 1. Kunal Ghanghav: https://github.com/KKunaal
+#### 2. Anshita Srivastava: https://github.com/anshita22
