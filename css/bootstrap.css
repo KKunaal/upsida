@@ -3106,8 +3106,8 @@ fieldset:disabled .btn {
 
 section .btn-dark, section .btn-light{
   box-sizing: border-box;
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
   min-height: 80px;
   max-height: 100px;
   max-width: 180px;
