@@ -1,0 +1,16 @@
+.reg_btn{
+    margin:30px 30rem;
+}
+.reg_btn button {
+    padding: 1rem;
+    color: white;
+    border:none;
+    border-radius: 10px;
+    background:  linear-gradient(to right,black,#092696,black,#092696);
+}
+
+.reg_btn button:hover {
+    padding: 1rem;
+    color: white;
+    background: linear-gradient(to right,#092696,black,#092696);
+}

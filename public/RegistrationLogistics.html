@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/upsida/css/showcase.css">
     <link rel="stylesheet" href="/upsida/css/footer.css">
     <link rel="stylesheet" href="/upsida/css/scroller.css">
+    <link rel="stylesheet" href="/upsida/css/RegistrationLogistics.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <title>UPSIDA</title>
 </head>
@@ -24,9 +25,9 @@
     <div class="container custom_text_color mb-0">
 
 
-        <header class="nav navbar navbar-expand-lg navbar-primary fixed-top bg-white">
+        <header class="d-flex justify-content-center fixed-top">
 
-            <a style="position: fixed; left: 35rem; top: 1rem;" class="navbar-brand custom_text_color ms-5" href="#">
+            <a style=" margin-top: 0.75rem;" class=" custom_text_color" href="/upsida/index.html">
                 <img style="align-items: center;" src="/upsida/images/upsidclogo2.png" width="240" height="70" class="d-inline-block align-text-top">
             </a>
 
@@ -50,10 +51,10 @@
 
         <div style="margin-top: 6rem;" class="container border-success fixed-top">
 
-            <nav class="nav navbar navbar-expand-sm bg-white">
+            <nav class="nav navbar navbar-expand-sm bg-white border-bottom border-start border-end ">
 
                 <!--This Visible Division is visible only on Desktop-->
-                <div class="justify-content-between">
+                <div class="container-sm justify-content-between">
                 <!--<div class="d-none d-sm-block justify-content-between">-->
                     <ul class="nav navbar-nav">
 
@@ -62,7 +63,7 @@
                                 <button class="btn btn-default dropbtn">
                                     <a href="/upsida/index.html">
                                         <img style="margin-bottom: 10px ;width: 20px; background: none;" src="/upsida/images/arrow_back.svg" alt="">
-                                      Back to Home Page
+                                         Back to Home Page
                                      </a>
                                 </button>
                             </div>
@@ -73,11 +74,27 @@
             </nav>
         </div>
 
-
+        
         <div style="margin-top: 20%;" class="container custom_text_color">
-            <h1>This is under construction</h1>    
+            
+            <section class="container">
+                <h4>Application Under Warehousing & Logistics Policy 2018</h4>
+                <div class="form-floating">
+                    <select class="form-select" id="floatingSelect">
+                      <option selected>Select</option>
+                      <option value="Apply through UPSIDA In-house System">Apply through UPSIDA In-house System</option>
+                      <option value="Modify/View the existing Application">Modify/View the existing Application</option>
+                    </select>
+                    <label for="floatingSelect">Application Under Warehousing & Logistics Policy 2018</label>
+                  </div>
+                  <div class="reg_btn">
+                      <button onclick="myfunction()">Proceed</button>
+                  </div>
+                  <span id="return"></span>
+            </section>
 
-            <section style="margin-top: 0;">
+
+            <section style="margin-top: 10rem;">
                 <marquee onMouseOver="this.stop()" onMouseOut="this.start()" style="width:90%;">
                     <img src="/upsida/images/new_red.gif" alt="">
                         <a href="https://www.onlineupsidc.com/pdf/TransGangaEOI.pdf">
@@ -140,6 +157,22 @@
     </script>
     <script src="/upsida/js/draggable.js"></script>
     <script src="/upsida/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function myfunction(){
+            var txt=document.getElementById("floatingSelect").value
+            console.log(document.getElementById("floatingSelect").value)
+            if(txt!=="Select") {
+                txt1="<p>Your Selection is ";
+                document.getElementById("return").innerHTML= txt1 +`<b>${txt}</b>` + " <a onclick=\"myfunction1()\" style=\"background: white; color:black; text-decoration:underline\" href=\"/upsida/index.html\">Click here to continue</a></p>";
+            }
+            else{
+                alert("Select Something")
+            }
+        }
+        function myfunction1(){
+            alert("Success !!");
+        }
+    </script>
     <!--Scripts Required for each page end-->
 
     <!--Common Footer for all the pages- Start-->
