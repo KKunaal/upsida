@@ -1,0 +1,12 @@
+marquee{
+    cursor: pointer;
+}
+marquee a{
+    cursor: pointer;
+    color: #092696;
+    cursor: pointer;
+}
+marquee a:hover{
+    cursor: pointer;
+    color: #000;
+}

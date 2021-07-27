@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="/upsida//css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="/upsida/css/style.css">
+    <link rel="stylesheet" href="/upsida/css/hamburgerstyle.css">
+    <link rel="stylesheet" href="/upsida/css/social_media_hangles.css">
+    <link rel="stylesheet" href="/upsida/css/custom_button_style.css">
+    <link rel="stylesheet" href="/upsida/css/showcase.css">
+    <link rel="stylesheet" href="/upsida/css/footer.css">
+    <link rel="stylesheet" href="/upsida/css/scroller.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <title>UPSIDA</title>
+</head>
+
+<body>
+
+
+    <div class="container custom_text_color mb-0">
+
+
+        <header class="nav navbar navbar-expand-lg navbar-primary fixed-top bg-white">
+
+            <a style="position: fixed; left: 35rem; top: 1rem;" class="navbar-brand custom_text_color ms-5" href="#">
+                <img style="align-items: center;" src="/upsida/images/upsidclogo2.png" width="240" height="70" class="d-inline-block align-text-top">
+            </a>
+
+            <!--Social Media Handles start-->
+            <div class="menu ">
+                <div id="mydiv">
+                    <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
+                    <label class="menu-open-button" for="menu-open">
+                        <span class="hamburger_ hamburger-1"></span>
+                        <span class="hamburger_ hamburger-2"></span>
+                        <span class="hamburger_ hamburger-3"></span>
+                    </label>
+                    <a href="#" class="menu-item"> <i class="fa fa-facebook"></i> </a>
+                    <a href="#" class="menu-item"> <i class="fa fa-twitter"></i> </a>
+                    <a href="#" class="menu-item"> <i class="fa fa-envelope"></i> </a>
+                </div>
+            </div>
+            <!--Social Media Handles end-->
+
+        </header>
+
+        <div style="margin-top: 6rem;" class="container border-success fixed-top">
+
+            <nav class="nav navbar navbar-expand-sm bg-white">
+
+                <!--This Visible Division is visible only on Desktop-->
+                <div class="justify-content-between">
+                <!--<div class="d-none d-sm-block justify-content-between">-->
+                    <ul class="nav navbar-nav">
+
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <button class="btn btn-default dropbtn">
+                                    <a href="/upsida/index.html">
+                                        <img style="margin-bottom: 10px ;width: 20px; background: none;" src="/upsida/images/arrow_back.svg" alt="">
+                                      Back to Home Page
+                                     </a>
+                                </button>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+        <div style="margin-top: 20%;" class="container custom_text_color">
+            <h1>This is under construction</h1>    
+
+            <section style="margin-top: 0;">
+                <marquee onMouseOver="this.stop()" onMouseOut="this.start()" style="width:90%;">
+                    <img src="/upsida/images/new_red.gif" alt="">
+                        <a href="https://www.onlineupsidc.com/pdf/TransGangaEOI.pdf">
+                            <b>
+                                Expression of Interest (EOI) For Setting up of Hospitals, Schools, 
+                                Flatted Factories, Warehouses, Industries, Group Housing, Sports Stadium, 
+                                Golf Course with Club House, 5 Star Hotels or any other Real Estate Project 
+                                in the Future Smart Cities - Trans Ganga City, Unnao near Kanpur & Saraswati 
+                                Hi-Tech City, Prayagraj
+                            </b>
+                        </a>
+                    <img src="/upsida/images/new_red.gif" alt="">
+                </marquee>
+            </section>
+        </div>
+    </div>
+
+            <!--filters REquired for displaying social Media handles start -->
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+            <filter id="shadowed-goo">
+                <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                    result="goo" />
+                <feGaussianBlur in="goo" stdDeviation="3" result="shadow" />
+                <feColorMatrix in="shadow" mode="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 -0.2"
+                    result="shadow" />
+                <feOffset in="shadow" dx="1" dy="1" result="shadow" />
+                <feBlend in2="shadow" in="goo" result="goo" />
+                <feBlend in2="goo" in="SourceGraphic" result="mix" />
+            </filter>
+            <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                    result="goo" />
+                <feBlend in2="goo" in="SourceGraphic" result="mix" />
+            </filter>
+        </defs>
+    </svg>
+    <!--filters REquired for displaying social Media handles End-->
+
+
+
+    <!--Scripts Required for each page start-->
+    <script>
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+
+        for (i = 0; i < dropdown.length; i++) {
+            dropdown[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var dropdownContent = this.nextElementSibling;
+                if (dropdownContent.style.display === "block") {
+                    dropdownContent.style.display = "none";
+                } else {
+                    dropdownContent.style.display = "block";
+                }
+            });
+        }
+    </script>
+    <script src="/upsida/js/draggable.js"></script>
+    <script src="/upsida/js/bootstrap.bundle.min.js"></script>
+    <!--Scripts Required for each page end-->
+
+    <!--Common Footer for all the pages- Start-->
+    <footer id="main-footer">
+        <p>Copyright &copy; 2021 | UPSIDA, U.P., India | All rights reserved.</p>
+    </footer>
+    <!--Common Footer for all the pages- End-->
+
+</body>
+
+</html>

@@ -1,5 +1,6 @@
 #showcase{
 	background: linear-gradient(#092696,#2ffc1b);
+	border-radius: 20px;
 	background-position: center right;
 	min-height: 300px;
 	margin-bottom: 30px;
