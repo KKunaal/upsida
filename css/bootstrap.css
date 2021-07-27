@@ -3055,14 +3055,19 @@ fieldset:disabled .btn {
 
 .btn-light {
   color: #000;
-  background-color: #f8f9fa;
-  border-color: #f8f9fa;
+  background:  linear-gradient(to right,black,#2ffc1b,black); /*#f8f9fa*/
+  border-radius: 10px;
+  border-color: #fff;
 }
 
 .btn-light:hover {
   color: #000;
-  background-color: #f9fafb;
+  background: linear-gradient(to right,#2ffc1b,black,#2ffc1b);
   border-color: #f9fafb;
+}
+
+.btn-light a{
+  color: #fff;
 }
 
 .btn-check:focus + .btn-light, .btn-light:focus {
@@ -3094,12 +3099,30 @@ fieldset:disabled .btn {
 
 .btn-dark {
   color: #fff;
-  background: linear-gradient(to right,#092696,#000);
+  background: linear-gradient(to right,#000,#092696,#000);
+  border-radius: 10px;
+  border-color: #fff;
 }
 
+section .btn-dark, section .btn-light{
+  box-sizing: border-box;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  min-height: 80px;
+  max-height: 100px;
+  max-width: 180px;
+  min-width: 10px;
+  overflow: hidden;
+}
 
 .btn-dark a {
  color: #fff;
+}
+
+.btn-dark:hover {
+  color: #000;
+  background: linear-gradient(to right,#092696,black,#092696);
+  border-color: #f9fafb;
 }
 
 .btn-check:focus + .btn-dark, .btn-dark:focus {

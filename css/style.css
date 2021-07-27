@@ -13,6 +13,10 @@ a{
   color: #092696;
 }
 
+section button{
+  margin-left: 20px;
+}
+
 .hamburger {
   cursor: pointer;
   padding: 15px 10px 15px 0;
