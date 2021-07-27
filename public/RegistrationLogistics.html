@@ -51,7 +51,7 @@
 
         <div style="margin-top: 6rem;" class="container border-success fixed-top">
 
-            <nav class="nav navbar navbar-expand-sm bg-white border-bottom border-start border-end ">
+            <nav style="padding-left: 0.75rem;" class="nav navbar navbar-expand-sm bg-white border-bottom border-start border-end ">
 
                 <!--This Visible Division is visible only on Desktop-->
                 <div class="container-sm justify-content-between">
@@ -77,7 +77,7 @@
         
         <div style="margin-top: 20%;" class="container custom_text_color">
             
-            <section class="container">
+            <section style="margin-top: 15rem;" class="container">
                 <h4>Application Under Warehousing & Logistics Policy 2018</h4>
                 <div class="form-floating">
                     <select class="form-select" id="floatingSelect">
@@ -85,9 +85,9 @@
                       <option value="Apply through UPSIDA In-house System">Apply through UPSIDA In-house System</option>
                       <option value="Modify/View the existing Application">Modify/View the existing Application</option>
                     </select>
-                    <label for="floatingSelect">Application Under Warehousing & Logistics Policy 2018</label>
+                    <label for="floatingSelect">New Application or Modify/View Existing</label>
                   </div>
-                  <div class="reg_btn">
+                  <div class="reg_btn d-flex justify-content-center">
                       <button onclick="myfunction()">Proceed</button>
                   </div>
                   <span id="return"></span>
@@ -162,7 +162,7 @@
             var txt=document.getElementById("floatingSelect").value
             console.log(document.getElementById("floatingSelect").value)
             if(txt!=="Select") {
-                txt1="<p>Your Selection is ";
+                txt1="<br><br><p>Your Selection is ";
                 document.getElementById("return").innerHTML= txt1 +`<b>${txt}</b>` + " <a onclick=\"myfunction1()\" style=\"background: white; color:black; text-decoration:underline\" href=\"/upsida/index.html\">Click here to continue</a></p>";
             }
             else{

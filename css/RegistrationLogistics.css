@@ -1,5 +1,6 @@
 .reg_btn{
-    margin:30px 30rem;
+    position: relative;
+    margin-top: 30px;
 }
 .reg_btn button {
     padding: 1rem;
