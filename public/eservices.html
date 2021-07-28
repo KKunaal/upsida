@@ -18,7 +18,7 @@
     <title>UPSIDA</title>
 </head>
 
-<body>
+<body onLoad="cap()">
 
 
     <div class="container custom_text_color mb-0">
@@ -38,32 +38,33 @@
             <span style="margin-left: 10%; font-size: small;" class="d-none d-md-none d-lg-block" id="clock"> </span>
             <!--Clock ends here-->
 
-            <!--Webmail and office login part starts here-->
+            <!-- Webmail and office login part starts here-->
             <div style="position: fixed; top: 0rem; right: 2.5rem;" class="d-none d-lg-block justify-content-between">
                 <button class="btn btn-dark">
                     <i class="fa fa-envelope"></i>
                     <span><a href="https://webmail.upsidc.com/" target="_blank">Webmail</a></span>
-                  </button>
+                </button>
             </div>
             <div style="position: fixed; top: 0rem; right: 0rem;" class="d-none d-lg-block justify-content-between">
-                  <button class="btn btn-dark">
+                <button class="btn btn-dark">
                     <i class="fa fa-briefcase"></i>
-                    <span><a href="https://www.onlineupsidc.com/OfficeUsers/Login.aspx" target="_blank">Office Login</a></span>
-                  </button>
+                    <span><a href="https://www.onlineupsidc.com/OfficeUsers/Login.aspx" target="_blank">Office
+                            Login</a></span>
+                </button>
             </div>
             <div style="position: fixed; top: 0rem; right: 2.5rem;" class="d-lg-none d-xl-none">
                 <button class="btn btn-dark">
                     <i class="fa fa-envelope"></i>
                     <span><a href="https://webmail.upsidc.com/" target="_blank">Webmail</a></span>
-                  </button>
+                </button>
             </div>
             <div style="position: fixed; top: 0rem; right: -0.5rem;" class="d-lg-none d-xl-none">
-                  <button class="btn btn-dark">
+                <button class="btn btn-dark">
                     <i class="fa fa-briefcase"></i>
                     <span><a href="/upsida/public/login.html" target="_blank">Office Login</a></span>
                 </button>
             </div>
-            <!--Webmail and office login part ends here-->
+            <!--Webmail and office login part ends here -->
 
             <!--Social Media Handles start-->
             <div class="menu ">
@@ -85,97 +86,88 @@
 
         <div style="margin-top: 3.5rem;" class="container border-success fixed-top">
 
-            <nav style="padding-left: 0.75rem;" class="nav navbar navbar-expand-sm bg-white border-bottom border-start border-end">
+            <!-- <nav style="padding-left: 0.75rem;" -->
+                <nav style="margin-top: 5px;box-shadow: 3px 5px 8px 5px grey; border-radius: 10px; padding-left: 0.75rem;" class="nav navbar navbar-expand-sm bg-white border-bottom border-start border-end">
 
                 <!--This Visible Division is visible only on mobile-->
 
                 <div class="d-lg-none d-xl-none">.
-                <!--<div class="d-block d-sm-none">-->
+                    <!--<div class="d-block d-sm-none">-->
                     <div class="nav-container">
                         <div class="nav-toggle"></div>
                         <ul class="nav-items">
-                            <li class="nav-item1"><a href="/upsida/index.html">Home</a></li>
-                            <li class="nav-item1"><a href="/upsida/public/about.html">About UPSIDA</a></li>
-                            <li class="nav-item1"><a href="#">Policies</a></li>
-                            <li class="nav-item1"><a href="#">Industrial Info</a></li>
-                            <li class="nav-item1"><a href="#">GIS</a></li>
-                            <li class="nav-item1"><a href="#">E-Services</a></li>
-                            <li class="nav-item1"><a href="#">Office Orders</a></li>
+                            <li class="nav-item1"><a href="#">Home</a></li>
+
                             <li>
                                 <div class="dropup">
-                                    <button class="dropbtn nav-item1">Resource Center</button>
+                                    <button class="dropbtn nav-item1">UPSIDA</button>
                                     <span class="icon"></span>
                                     <div class="dropup-content">
-                                        <a href="#">Industrial Area Operation Process</a>
-                                        <a href="#">Operating Manual 2021</a>
-                                        <a href="#">Document for Approval Building</a>
-                                        <a href="#">Present Rates</a>
-                                        <a href="#">Development Process</a>
-                                        <a href="#">Condition For tender</a>
-                                        <a href="#">Allotement Application Form</a>
-                                        <a href="#">Services Rules</a>
-                                        <a href="#">By Laws of Upsida</a>
+                                        <a href="#">Inspection Procedure for Obtaining Construction Permit</a>
+                                        <a href="#">Inspection Procedure for Obtaining Occupancy/Completion
+                                            Certificate</a>
+                                        <a href="#">UP State Industrial Development Area(Preperation and Finalization
+                                            Of Plans) Regulations 2004
+                                        </a>
+                                        <a href="#">UP State Industrial Development Area - Land Development and
+                                            Building Regulations 2018
+                                        </a>
                                     </div>
                                 </div>
                             </li>
                             <li>
-                                <div class="dropup">
-                                    <button class="dropbtn nav-item1">Available Plot</button>
-                                    <div class="dropup-content">
-                                        <a href="#">Available Plots in Nivesh Mitra</a>
-                                        <a href="#">Available Plots in E-Auction</a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="dropup">
-                                    <button class="dropbtn nav-item1">Contact Us</button>
-                                    <div class="dropup-content">
-                                        <a href="/upsida/public/contact1.html">Head Office</a>
-                                        <a href="/upsida/public/contact2.html">Regional/Project Office</a>
-                                        <a href="/upsida/public/contact3.html">Divisional Office</a>
-                                    </div>
-                                </div>
-                            </li>
+                            <li class="nav-item1"><a href="#">Disclosures Allottee Details</a></li>
+                            <li class="nav-item1"><a href="#">Service Timeline</a></li>
+                            <li class="nav-item1"><a href="#">Flagship Projects</a></li>
+                            <li class="nav-item1"><a href="#">Office Orders</a></li>
+                            <li class="nav-item1"><a href="#">Available Plots</a></li>
+                            <li class="nav-item1"><a href="#">Property Hub</a></li>
                         </ul>
                     </div>
                 </div>
 
                 <!--This Visible Division is visible only on Desktop-->
-                
+
                 <div class="d-none d-lg-block justify-content-between">
-                <!--<div class="d-none d-sm-block justify-content-between">-->
+                    <!--<div class="d-none d-sm-block justify-content-between">-->
                     <ul class="nav navbar-nav">
 
                         <li class="nav-item">
                             <div class="dropdown">
-                                <button class="btn btn-default dropbtn"><a href="/upsida/index.html">Home</a></button>
+                                <button class="btn btn-default dropbtn"><a href="#">Home</a></button>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <button class="btn btn-default dropbtn">UPSIDA</button>
+                                <div class="dropdown-content">
+                                    <a href="#">Inspection Procedure for Obtaining Construction Permit</a>
+                                    <a href="#">Inspection Procedure for Obtaining Occupancy/Completion Certificate</a>
+                                    <a href="#">UP State Industrial Development Area(Preperation and Finalization
+                                        Of Plans) Regulations 2004
+                                    </a>
+                                    <a href="#">UP State Industrial Development Area - Land Development and
+                                        Building Regulations 2018
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <button class="btn btn-default dropbtn">Disclosures Allottee Details</button>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <button class="btn btn-default dropbtn"><a href="#">Service Timeline</a></button>
                             </div>
                         </li>
                         <li class="nav-item">
                             <div class="dropdown">
-                                <button class="btn btn-default dropbtn"><a href="/upsida/public/about.html">About
-                                        UPSIDA</a></button>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <div class="dropdown">
-                                <button class="btn btn-default dropbtn"><a href="#">Policies</a></button>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <div class="dropdown">
-                                <button class="btn btn-default dropbtn"><a href="#">Industrial Info</a></button>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <div class="dropdown">
-                                <button class="btn btn-default dropbtn"><a href="#">GIS</a></button>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <div class="dropdown">
-                                <button class="btn btn-default dropbtn"><a href="#">E-services</a></button>
+                                <button class="btn btn-default dropbtn"><a href="#">Flagship Projects</a></button>
                             </div>
                         </li>
                         <li class="nav-item">
@@ -183,43 +175,14 @@
                                 <button class="btn btn-default dropbtn"><a href="#">Office Orders</a></button>
                             </div>
                         </li>
-
-
                         <li class="nav-item">
                             <div class="dropdown">
-                                <button class="btn btn-default dropbtn">Resource Center</button>
-                                <div class="dropdown-content">
-                                    <a href="#">Industrial Area Operation Process</a>
-                                    <a href="#">Operating Manual 2021</a>
-                                    <a href="#">Document for Approval Building</a>
-                                    <a href="#">Present Rates</a>
-                                    <a href="#">Development Process</a>
-                                    <a href="#">Condition For tender</a>
-                                    <a href="#">Allotement Application Form</a>
-                                    <a href="#">Services Rules</a>
-                                    <a href="#">By Laws of Upsida</a>
-                                </div>
+                                <button class="btn btn-default dropbtn"><a href="#">Available Plots</a></button>
                             </div>
                         </li>
-
                         <li class="nav-item">
                             <div class="dropdown">
-                                <button class="btn btn-default dropbtn">Available Plot</button>
-                                <div class="dropdown-content">
-                                    <a href="#">Available Plots in Nivesh Mitra</a>
-                                    <a href="#">Available Plots in E-Auction</a>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="nav-item">
-                            <div class="dropdown">
-                                <button class="btn btn-default dropbtn">Contact Us</button>
-                                <div class="dropdown-content">
-                                    <a href="/upsida/public/contact1.html">Head Office</a>
-                                    <a href="/upsida/public/contact2.html">Regional/Project Office</a>
-                                    <a href="/upsida/public/contact3.html">Divisional Office</a>
-                                </div>
+                                <button class="btn btn-default dropbtn"><a href="#">Property Hub</a></button>
                             </div>
                         </li>
                     </ul>
@@ -228,12 +191,262 @@
         </div>
 
 
-        <div style="margin-top: 12%;" class="container custom_text_color">
-            <h1>This is under construction</h1>    
+        <div style="margin-top: 12%; " class="container custom_text_color">
+            <div class="col-md-12" >
+                <div class="row">
+                    <div class="col-md-8" style="margin-top: 15px; box-shadow: 3px 5px 8px 5px grey; border-radius: 10px; ">
+                        <img class="img-responsive" src="/upsida/images/BannerNew2.png"
+                            style="height:321px;width:720px;">
+                    </div>
+                    <div class="col-md-4 well well-large offset4" style="margin-top: 15px; box-shadow: 3px 5px 8px 5px grey; border-radius: 10px;">
+                        <div class="clearfix"></div>
+                        <div class="form-group" style=" padding: 20px;">
+                            <div style="width: 240px">
+                                <span id="RadioButtonList1"><input id="RadioButtonList1_0" type="radio"
+                                        name="RadioButtonList1" value="1" checked="checked"><label
+                                        for="RadioButtonList1_0">&nbsp;UPSIDA User &nbsp;&nbsp;&nbsp; </label><input
+                                        id="RadioButtonList1_1" type="radio" name="RadioButtonList1" value="4"><label
+                                        for="RadioButtonList1_1">&nbsp;Other Dept &nbsp;&nbsp;&nbsp;</label></span>
+                            </div>
+                            <div class="input-group" style="margin-top: 10px">
+                                <div class="form-group">
+                                    <label>UserName:</label><input type="text" name="UserName" class="form-control"
+                                        autofocus placeholder="Username">
+                                </div>
+                                <div class="form-group">
+                                    <label>Password:</label><input type="Password" name="Password" class="form-control"
+                                    autofocus placeholder="Password">
+                                </div>
+
+                                
+                                <div class="row">
+                                    <label>Enter Captcha:</label>
+                                    <div class=" col-md-6">
+                                        <input type="text" class="form-control" readonly id="capt">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control" id="textinput">
+                                    </div>
+                                    <h6>Captcha not visible <img src="/upsida/images/refresh.jpg" width="40px" onclick="cap()"></h6>
+                                </div>
+                                
+                                
+                                <div class="form-group">
+                                    <button onclick="validcap()"
+                                        class="btn btn-lg btn-success btn-block form-control">Submit</button>
+                                </div>
+                                </form>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row well well-large offset4">
+
+                    <div class="clearfix"></div>
+                    <div>
+
+
+                        <br>
+                        <section class="container">
+                            <button class="btn btn-dark"><a href="RegistrationLogistics.aspx" target="_blank">Application Under</a></button>
+                            <button class="btn btn-light"><a href="IAServices.aspx" target="_blank">Apply for Occupancy
+                                Certificate</a></button>
+                            <button class="btn btn-dark"><a href="IAServices.aspx" target="_blank">Apply for Completion
+                                Certificate</a></button>
+                            <button class="btn btn-light"><a href="IAServices.aspx" target="_blank">Apply for Amalgamation of
+                                Plot</a></button>
+                            <button class="btn btn-dark"><a href="IAServices.aspx" target="_blank">Apply for Subdivision of
+                                Plot</a></button>
+                        </section>
+                        
+                    </div>
+
+                </div>
+                <hr>
+                <div class="row well well-large offset4">
+
+                    <div class="clearfix"></div>
+                    <div>
+
+
+                        <br>
+                        <section class="container" style="margin: auto; padding: auto;">
+                            <button class="btn btn-dark"><a href="ServiceTracker.aspx" target="_blank">IA Service Tracker</a></button>
+                            <button class="btn btn-light"><a href="ApplicationTracker.aspx" target="_blank">Land Allotment Tracker</a></button>
+                            <button class="btn btn-dark"><a href="#" target="_blank">Apply For
+                                RTI</a></button>
+                            <button class="btn btn-light"><a href="#" target="_blank">Submit
+                                Grievance</a></button>
+                            <button class="btn btn-dark"><a href="plotavailability.aspx" target="_blank">Find Plot</a></button>
+                            <button class="btn btn-light"><a href="LandAcquisitionProposal.aspx" target="_blank">Sell your Land</a></button>
+                        </section>
+                        <!-- <p class="text-center">
+
+                            <a href="ServiceTracker.aspx" title="" class="btn btn-primary ey-bg"
+                                style="margin:10px 5px;position:relative;z-index:1;">IA Service Tracker</a>
+                            <a href="ApplicationTracker.aspx" title="" class="btn btn-primary ey-bg"
+                                style="margin:10px 5px;position:relative;z-index:1;">Land Allotment Tracker</a>
+                            <a onclick="comingsoon()" title="" class="btn btn-primary ey-bg;margin:10px 5px;">Apply For
+                                RTI</a>
+                            <a onclick="RTI()" title="" class="btn btn-primary ey-bg;margin:10px 5px;">Submit
+                                Grievance</a>
+                            <span><a href="plotavailability.aspx" title="" class="btn btn-primary ey-bg"
+                                    style="margin:10px 5px;position:relative;z-index:1;">Find Plot </a></span>
+                            <span><a href="LandAcquisitionProposal.aspx" title="" class="btn btn-primary ey-bg"
+                                    style="margin:10px 5px;position:relative;z-index:1;">Sell your Land
+                                </a></span>
+                        </p> -->
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <!-- <div class="col-md-12">
+                <marquee scrolldelay="10" direction="left"
+                    style="position:relative;padding: 12px 0;border:6px solid #d6d6d6;margin-top: 20px;">
+                    <img src="/images/new_red.gif" style="position:absolute;z-index:2;left: -34px;top: -3px;"
+                        alt="new img">
+                    <p>All the UPSIDA industrial area services will now available only through nivesh mitra
+                        portal.</p>
+
+                </marquee>
+
+            </div> -->
+            <section data-toggle="tooltip" data-placement="bottom" title="Click to Know more">
+                <marquee style="margin-top: 7rem; margin-bottom: 1rem;" scrollamount="5" onMouseOver="this.stop()" onMouseOut="this.start()" style="width:90%;"class="d-none d-lg-block">
+                    <img src="/upsida/images/new_red.gif" alt="">
+                        
+                            <b>
+                                All the UPSIDA industrial area services will now available only through nivesh mitra
+                                portal.
+                            </b>
+                        </a>
+                    <img src="/upsida/images/new_red.gif" alt="">
+                </marquee>
+               
+            </section>
+            <div class="clearfix"></div>
+            <div class="col-md-3"></div>
+        </div>
+        <div id="footer_id"> &#xFEFF; <footer class="nb-footer">
+                <div class="container">
+                    <div class="row">
+
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="footer-info-single">
+                                <h2 class="title">Land Allotment</h2>
+                                <ul class="list-unstyled">
+                                    <li><a href="/doc/Industrial_Land_Allotment_Form.pdf" target="_blank" title=""><i
+                                                class="fa fa-angle-double-right"></i>Industrial Land
+                                            Allotment Form</a></li>
+                                    <li><a href="/doc/checklist_for_industrial_land_allotment.pdf" target="_blank"
+                                            title=""><i class="fa fa-angle-double-right"></i>Checklist Document</a></li>
+                                    <li><a href="/doc/operating_manual_upsidc.pdf" target="_blank" title=""><i
+                                                class="fa fa-angle-double-right"></i>Operating Manual 2011</a>
+                                    </li>
+                                    <li><a href="/doc/sop_for_industrial_land_allotment.pdf" target="_blank" title=""><i
+                                                class="fa fa-angle-double-right"></i>SOP For Industrial
+                                            Land Allotment</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4 col-sm-6">
+                            <div class="footer-info-single">
+                                <h2 class="title">UP SIDA</h2>
+                                <ul class="list-unstyled">
+                                    <li><a href="/doc/Inspection_Procedure.pdf" title=""><i
+                                                class="fa fa-angle-double-right"></i>Annexure A, Inspection
+                                            Procedure Checklist &amp; Performa</a></li>
+                                    <li><a href="/doc/Land-Regulation-2004-after-26-UPSIDC.pdf" title=""><i
+                                                class="fa fa-angle-double-right"></i>Land Regulation 2004 after
+                                            26 UPSIDA</a></li>
+                                    <li><a href="/doc/Building-Regulation-2004-after-26-UPSIDC.pdf" title=""><i
+                                                class="fa fa-angle-double-right"></i>Building Regulation 2004
+                                            after 26 UPSIDA</a></li>
+                                    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i>UPSIDA
+                                            Byelaws</a></li>
+
+                                    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i>SOP For
+                                            Computerised Allocation of Inspectors</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 col-sm-6">
+
+
+                            <div class="footer-info-single">
+                                <h2 class="title">Security &amp; privacy</h2>
+                                <ul class="list-unstyled">
+                                    <li><a href="" title=""><i class="fa fa-angle-double-right"></i>Terms Of
+                                            Use</a></li>
+                                    <li><a href="" title=""><i class="fa fa-angle-double-right"></i>Privacy
+                                            Policy</a></li>
+                                    <li><a href="" title=""><i class="fa fa-angle-double-right"></i>Return /
+                                            Refund Policy</a></li>
+                                    <li><a href="OutsideUploadFile.aspx" title=""><i
+                                                class="fa fa-angle-double-right"></i>Store Locations</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-3 col-sm-6">
+
+                            <div class="footer-info-single">
+                                <h2 class="title">PUBLIC FORUM</h2>
+                                <ul class="list-unstyled">
+                                    <li style="display:none;"><a href="Inspection.aspx" title=""><i
+                                                class="fa fa-angle-double-right"></i>View Inspection Detail</a>
+                                    </li>
+                                    <li><a href="PviewAllottes.aspx" target="_blank" title=""><i
+                                                class="fa fa-angle-double-right"></i>View Allotment Details</a>
+                                    </li>
+                                    <li><a href="ViewInspectionDocument.aspx" target="_blank" title=""><i
+                                                class="fa fa-angle-double-right"></i>View Inspection
+                                            Document</a></li>
+                                    <li><a href="ViewBuildingPlanDocument.aspx" target="_blank" title=""><i
+                                                class="fa fa-angle-double-right"></i>View BuildingPlan Document
+                                        </a></li>
+
+                                    <li><a href="ViewServiceTimeLines.aspx" target="_blank" title=""><i
+                                                class="fa fa-angle-double-right"></i>View Service TimeLine</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+
+                            <!--  <div class="footer-info-single">
+                                    <h2 class="title">Payment</h2>
+                                    <ul class="list-unstyled">
+                                        <li><a href="QuickPay.aspx" title=""><i class="fa fa-angle-double-right"></i>Pay Now</a></li>
+                                    </ul>
+                                </div>-->
+                        </div>
+                    </div>
+                </div>
+
+                
+            </footer>
+        </div>
+
+    </div>
+    </div>
     </div>
 
-            <!--filters REquired for displaying social Media handles start -->
+    <!--filters REquired for displaying social Media handles start -->
     <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
         <defs>
             <filter id="shadowed-goo">
@@ -256,7 +469,6 @@
         </defs>
     </svg>
     <!--filters REquired for displaying social Media handles End-->
-
 
 
     <!--Scripts Required for each page start-->
@@ -293,6 +505,36 @@
             });
         }
     </script>
+    <script type="text/javascript">
+        function cap(){
+          var alpha = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V'
+                       ,'W','X','Y','Z'];
+                       var a = alpha[Math.floor(Math.random()*26)];
+                       var b = alpha[Math.floor(Math.random()*26)];
+                       var c = alpha[Math.floor(Math.random()*26)];
+                       var d = alpha[Math.floor(Math.random()*26)];
+                       var e = alpha[Math.floor(Math.random()*26)];
+                       var f = alpha[Math.floor(Math.random()*26)];
+      
+                       var final = a+b+c+d+e+f;
+                       document.getElementById("capt").value=final;
+                     }
+                     function validcap(){
+                      var stg1 = document.getElementById('capt').value;
+                      var stg2 = document.getElementById('textinput').value;
+                      if(stg1==stg2){
+                        alert("Form is validated Succesfully");
+                        return true;
+                      }else{
+                        alert("Please enter a valid captcha");
+                        return false;
+                      }
+                     }
+      </script>
+      
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+      
     <script src="/upsida/js/draggable.js"></script>
     <script src="/upsida/js/ham.js"></script>
     <script src="/upsida/js/bootstrap.bundle.min.js"></script>
