@@ -1,0 +1,19 @@
+.barstyle {
+    border: 1px solid grey; /*rgb(255,58,39)*/
+    background:linear-gradient(to right,#092696,rgb(255,58,39),#2ffc1b);
+    /*background:linear-gradient(to right,#2ffc1b,#092696);*/
+    color: #fff;
+    text-align: start;
+    margin: 10px 10px 10px 0;
+    box-shadow: 3px 5px 3px grey;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.card-body a{
+    color: #092696;
+}
+
+.card-body a:hover{
+    font-weight: 1000;
+}
