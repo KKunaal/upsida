@@ -1,0 +1,22 @@
+.policies {
+    border: 1px solid grey; /*rgb(255,58,39)*/
+    background:linear-gradient(to right,#092696,rgb(255,58,39),#2ffc1b);
+    /*background:linear-gradient(to right,#2ffc1b,#092696);*/
+    color: #fff;
+    text-align: start;
+    margin: 10px 10px 10px 0;
+}
+
+section div .card:hover{
+    background:linear-gradient(to right,#092696,#2ffc1b);
+}
+
+section div .card:hover a{
+    color: yellow;
+    background:linear-gradient(to right,#092696,#2ffc1b);
+}
+
+section div .card:hover a:hover{
+    color: #fff;
+    background:linear-gradient(to right,#092696,#2ffc1b);
+}
