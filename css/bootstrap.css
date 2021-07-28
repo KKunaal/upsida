@@ -4468,6 +4468,11 @@ section .btn-dark, section .btn-light{
   border-radius: calc(0.25rem - 1px);
 }
 
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .card-img,
 .card-img-top,
 .card-img-bottom {
