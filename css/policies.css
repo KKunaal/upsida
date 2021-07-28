@@ -5,10 +5,13 @@
     color: #fff;
     text-align: start;
     margin: 10px 10px 10px 0;
+    box-shadow: 3px 5px 3px grey;
+    border-radius: 20px;
+    padding: 1rem;
 }
-
 section div .card:hover{
     background:linear-gradient(to right,#092696,#2ffc1b);
+    box-shadow: 3px 5px 3px grey;
 }
 
 section div .card:hover a{
