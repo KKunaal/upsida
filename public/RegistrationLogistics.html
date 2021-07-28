@@ -76,8 +76,27 @@
 
         
         <div style="margin-top: 20%;" class="container custom_text_color">
+
+                <section data-toggle="tooltip" data-placement="bottom" title="Click to Know more">
+                <marquee style="margin-top: 7rem; margin-bottom: 1rem; background: grey;" scrollamount="5" onMouseOver="this.stop()" onMouseOut="this.start()" style="width:90%;"class="d-none d-lg-block">
+                    <img src="/upsida/images/new_red.gif" alt="">
+                        <a href="https://www.onlineupsidc.com/pdf/TransGangaEOI.pdf">
+                            <b>
+                                Expression of Interest (EOI) For Setting up of Hospitals, Schools, 
+                                Flatted Factories, Warehouses, Industries, Group Housing, Sports Stadium, 
+                                Golf Course with Club House, 5 Star Hotels or any other Real Estate Project 
+                                in the Future Smart Cities - Trans Ganga City, Unnao near Kanpur & Saraswati 
+                                Hi-Tech City, Prayagraj
+                            </b>
+                        </a>
+                    <img src="/upsida/images/new_red.gif" alt="">
+                </marquee>
+                <div style="margin-top: 12rem; margin-left: 90%;" class="d-lg-none">
+                   <a href="https://www.onlineupsidc.com/pdf/TransGangaEOI.pdf"><img style="width: 50px;" src="/upsida/images/new_red.gif" alt=""></a>
+                </div>
+            </section>
             
-            <section style="margin-top: 15rem;" class="container">
+            <section style="margin-top: 3rem;" class="container">
                 <h4>Application Under Warehousing & Logistics Policy 2018</h4>
                 <div class="form-floating">
                     <select class="form-select" id="floatingSelect">
@@ -92,27 +111,10 @@
                   </div>
                   <span id="return"></span>
             </section>
-
-
-            <section style="margin-top: 10rem;">
-                <marquee onMouseOver="this.stop()" onMouseOut="this.start()" style="width:90%;">
-                    <img src="/upsida/images/new_red.gif" alt="">
-                        <a href="https://www.onlineupsidc.com/pdf/TransGangaEOI.pdf">
-                            <b>
-                                Expression of Interest (EOI) For Setting up of Hospitals, Schools, 
-                                Flatted Factories, Warehouses, Industries, Group Housing, Sports Stadium, 
-                                Golf Course with Club House, 5 Star Hotels or any other Real Estate Project 
-                                in the Future Smart Cities - Trans Ganga City, Unnao near Kanpur & Saraswati 
-                                Hi-Tech City, Prayagraj
-                            </b>
-                        </a>
-                    <img src="/upsida/images/new_red.gif" alt="">
-                </marquee>
-            </section>
         </div>
     </div>
 
-            <!--filters REquired for displaying social Media handles start -->
+    <!--filters REquired for displaying social Media handles start -->
     <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
         <defs>
             <filter id="shadowed-goo">
@@ -163,7 +165,7 @@
             console.log(document.getElementById("floatingSelect").value)
             if(txt!=="Select") {
                 txt1="<br><br><p>Your Selection is ";
-                document.getElementById("return").innerHTML= txt1 +`<b>${txt}</b>` + " <a onclick=\"myfunction1()\" style=\"background: white; color:black; text-decoration:underline\" href=\"/upsida/index.html\">Click here to continue</a></p>";
+                document.getElementById("return").innerHTML= txt1 +`<b>${txt}</b>` + " <a onclick=\"myfunction1()\" style=\"background: white; color:black; text-decoration:underline\" href=\"/upsida/index.html\">Confirm and Proceed</a></p>";
             }
             else{
                 alert("Select Something")
@@ -176,7 +178,7 @@
     <!--Scripts Required for each page end-->
 
     <!--Common Footer for all the pages- Start-->
-    <footer id="main-footer">
+    <footer style="position: fixed; bottom: 0; right: 0; color: #092696; background: white;">
         <p>Copyright &copy; 2021 | UPSIDA, U.P., India | All rights reserved.</p>
     </footer>
     <!--Common Footer for all the pages- End-->
