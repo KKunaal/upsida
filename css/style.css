@@ -2,6 +2,16 @@
   color:#092696;
 }
 
+td {
+  color: #092696;
+}
+td a{
+  color: blue;
+}
+
+td a:hover{
+  color: blue;
+}
 #mydiv {
   position: absolute;
   top:400px;
