@@ -150,7 +150,7 @@ div {
 .tickerv-wrap {
   background: #eee;
   box-sizing: content-box;
-  height: 300px; /* Take note of this */
+  height: 200px; /* Take note of this */
   overflow: hidden; /* Hide scrollbars */
   padding: 10px;
 } 

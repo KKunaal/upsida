@@ -9,6 +9,11 @@
     border-radius: 20px;
     padding: 1rem;
 }
+.small{
+    max-width: 500px;
+    max-height: 60px;
+    margin: 10px 10px 10px 0;
+}
 
 .card-body a{
     color: #092696;
