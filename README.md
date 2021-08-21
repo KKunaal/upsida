@@ -1,4 +1,4 @@
-# checking
+# Designed the Website for Competition held on Dare2Compete -- UPSIDA Website Design-a-thon (Uttar Pradesh State Industrial Development Authority)
 
 # How to run this project on your system?
 1. Get the link to this repo (Click on code(green button)-http-copy the link)
